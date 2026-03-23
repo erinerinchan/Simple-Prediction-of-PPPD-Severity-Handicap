@@ -31,11 +31,11 @@ This personal project reflects my interest in **health data analytics** and **ma
 
 ## Project Structure
 
-├── data/ # Simulated PPPD patient dataset
-├── notebooks/ # Exploratory analysis & modeling
-├── visuals/ # Generated charts and plots
-├── README.md
-└── requirements.txt
+    ├── data/                # Simulated PPPD patient dataset
+    ├── notebooks/           # Exploratory analysis & modeling
+    ├── visuals/             # Generated charts and plots
+    ├── README.md
+    └── requirements.txt
 
 ## Getting Started
 

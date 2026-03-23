@@ -14,7 +14,7 @@ Using a simulated dataset of PPPD patients scored on the **Dizziness Handicap In
 - 📈 **Visualizes** score distributions and group comparisons
 - 🤖 **Builds** a decision tree classifier to predict severe handicap (DHI > 50) based on features like age, anxiety, and visual sensitivity
 
-*Note on data: No real patient datasets used — all values were simulated from the above literature to explore basic patterns and predictors.
+*Note on data: No real patient datasets used — all values were simulated from the above literature to explore basic patterns and predictors.*
 
 ## Key Finding
 
@@ -41,27 +41,23 @@ This personal project reflects my interest in **health data analytics** and **ma
 
 ## Getting Started
 
-```bash
-git clone https://github.com/yourusername/pppd-dhi-analysis.git
-cd pppd-dhi-analysis
-pip install -r requirements.txt
+    git clone https://github.com/yourusername/pppd-dhi-analysis.git
+    cd pppd-dhi-analysis
+    pip install -r requirements.txt
 
-## Reference
+## References
 
-PPPD definition and symptoms: Based on the 2017 Bárány Society consensus criteria
+**PPPD definition and symptoms:** Based on the 2017 Bárány Society consensus criteria
+  - Staab et al. (2017): [PubMed](https://pubmed.ncbi.nlm.nih.gov/29036855/)
 
-→ Staab et al. (2017): https://pubmed.ncbi.nlm.nih.gov/29036855/
-Dizziness Handicap Inventory (DHI) questionnaire: Standard 25-item tool used for scoring handicap (0–100 scale)
+**Dizziness Handicap Inventory (DHI) questionnaire:** Standard 25-item tool used for scoring handicap (0–100 scale)
+  - Original: Jacobson & Newman (1990)
+  - [Example full form with scoring (PDF)](https://southampton.stonybrookmedicine.edu/sites/default/files/Dizziness%20Hanicap%20Inventory%20-%20English.pdf)
 
-→ Original: Jacobson & Newman (1990)
+**Typical DHI scores in PPPD patients:** Simulated values informed by real study averages (~48–55)
+  - Steensnaes et al. (2023): [PMC Article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10620245/) (mean DHI 49.2 in PPPD)
+  - Teh et al. (2022): [SAGE Journals](https://journals.sagepub.com/doi/abs/10.3233/VES-210087) (mean DHI 48.3)
 
-→ Example full form with scoring: https://southampton.stonybrookmedicine.edu/sites/default/files/Dizziness%20Hanicap%20Inventory%20-%20English.pdf
-Typical DHI scores in PPPD patients: Simulated values informed by real study averages (~48–55)
-
-→ Steensnaes et al. (2023): https://pmc.ncbi.nlm.nih.gov/articles/PMC10620245/ (mean DHI 49.2 in PPPD)
-
-→ Teh et al. (2022): https://journals.sagepub.com/doi/abs/10.3233/VES-210087 (mean DHI 48.3) Anxiety and visual trigger correlations: Key predictors drawn from PPPD research
-
-→ Powell et al. (2020/2022): Links between anxiety, visual sensitivity, and symptom severity
-
-→ General support: Multiple studies note anxiety prevalence 45–60% and visual exacerbations in PPPD
+**Anxiety and visual trigger correlations:** Key predictors drawn from PPPD research
+  - Powell et al. (2020/2022): Links between anxiety, visual sensitivity, and symptom severity
+  - General support: Multiple studies note anxiety prevalence 45–60% and visual exacerbations in PPPD
